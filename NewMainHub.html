@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html>
+    <html lang= "en" data-theme= "light">
     <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Prototype[MainHub]</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        let locals = localStorage.getitem('theme'),
+        themeToSet = LocalS
+
+        if (!localS) {
+            themeToSet = window.matchMedia('(prefer-color-scheme: dark)').matches ? 'dark' : 'light'
+        }
+
+        document.addEventListener("DOMContentLoaded", applySavedSidebarState);
+    </script>
     
     <link rel="stylesheet" href="css/styleNewMainHub.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -111,6 +121,6 @@
             <p>Making It public For AMA Students</p>
         </div>
         </section>
-        <script src="Js/MainHubSide.js" type="text/javascript"></script>
+        <script src="Js/DarkmodeToggle.js" type="text/javascript"></script>
     </body>
 </html>

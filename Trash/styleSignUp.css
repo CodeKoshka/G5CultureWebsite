@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+body { 
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner {
+    background-color:rgb(39, 76, 188);
+    color: grey;
+    background-size:cover;
+    background-position: center; 
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.sign-up-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: rgb(77, 74, 160);
+    padding: 30px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.sign-up-form h1
+{
+    color: skyblue;
+    margin-bottom: 30px;
+}
+.input-box {
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid rgb(32, 107, 178);
+    outline: none;
+}
+.input-boxPass {
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid rgb(32, 107, 178);
+    outline: none;
+}
+button{
+    color:aliceblue;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.signup-btn{
+       background-color:rgb(40, 133, 214);
+}
+.Google-btn{
+    Background-color: rgb(0, 149, 255);
+}
+a{
+    text-decoration: none;
+}
+hr
+{
+    margin-top: 20px;
+    width: 80%;
+}
+.or
+{
+    background: rgb(77, 74, 160);
+    width: 30px;
+    margin: -19px auto 10px;
+}
+.img{
+    width: 70px;
+    margin-top: -50px;
+}
