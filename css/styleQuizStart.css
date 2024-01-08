@@ -7,12 +7,12 @@
     box-sizing: border-box;
 }
 
-body{ 
+body { 
     height: 100vh;
     background-color:rgb(37, 37, 112);
 }
 
-.start-screen, .score-container{
+.start-screen, .score-container {
     position: absolute;
     top: 0;
     width: 100%;
@@ -23,25 +23,25 @@ body{
     justify-content: center;
 }
 
-button{
+button {
     border: none;
     outline: none;
     cursor: pointer;
 }
 
 #start-button,
-#Restart{
+#Restart {
     font-size: 1.33em;
     padding: 0.5em 1.8em;
     border-radius: 0.2em;
     box-shadow: 0 20px 30px rgba (0, 0, 0, 0.4);
 }
 
-#Restart{
+#Restart {
     margin-top: 0.9em;
 }
 
-#display-container{
+#display-container {
     background-color: whitesmoke;
     padding: 3.1em 1.8em;
     width: 80%;
@@ -54,7 +54,7 @@ button{
     border-radius: 0.6em;
 }
 
-.header{
+.header {
     margin-bottom: 1.8em;
     display: flex;
     justify-content: space-between;
@@ -63,6 +63,28 @@ button{
     border-bottom: 0.1em solid #c0bfd2;
 }
 
-.timer-div{
-    
+.timer-div {
+    background-color: #e1f5fe;
+    width: 7.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7em 1.8em;    
+}
+
+.question {
+    font-size: 0.9em;
+    width: 600;
+}
+
+.options-div {
+    font-size: 0.9em;
+    width: 100%;
+    padding: 1em;
+    margin: 0.3em 0;
+    text-align: left;
+    outline: none;
+    background: transparent;
+    border: 1px solid #c0bfd2;
+    border-radius: 0.3em;
 }
