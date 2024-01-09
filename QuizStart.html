@@ -6,32 +6,29 @@
         <title>Quiz Start</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styleQuizStart.css">
-    </head>
-    <body>
-        <div class="start-screen">
-            <button id="start-button">start</button>
+</head>
+
+<body>
+    <div class="start-screen">
+        <button id="start-button">Start</button>
+    </div>
+    <div id="display-container">
+        <div class="header">
+            <div class="number-of-count">
+                <span id="number-of-question">1 of 10 Questions</span>
             </div>
-            <div id="display-container">
-                <div class="header">
-                    <div class="number-of-count">
-                        <span class="number-of-questions">
-                            1 Of 10 Questions
-                        </span>
-                    </div>
-                    <div class="timer-div">
-                        <img src="CelliniaTexasWaifuReadmeType.png" alt="" width="20">
-                        <span class="time-left">3600s</span>
-                    </div>
-                </div>
-                <div id="container">
-                    <!--(Questions And Answers) pa rewrite nalang pre Temporary Lahat Ng Questions And Answers - Otep -->
-                </div>
-                <button id="next-button">Next</button>
-                </div>
-            <div class="score-container hide">
-            <div id="user-score">Score</div>
-            <button id="Restart">Restart</button>
+            <div class="timer-div">
+                <img src="CelliniaTexasWaifuReadmeType.png" alt="" width="20">
+                <span id="time-left"></span>
             </div>
-        <script src="Js/=QuizTest.js" type="text/javascript"></script>
+        </div>
+        <div id="container"></div>
+        <button id="next-button">Next</button>
+    </div>
+    <div class="score-container hide">
+        <div id="user-score">Score</div>
+        <button id="restart">Restart</button>
+    </div>
+    <script src="Js/QuizTest.js" type="text/javascript"></script>
     </body>
 </html>

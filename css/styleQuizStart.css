@@ -30,14 +30,14 @@ button {
 }
 
 #start-button,
-#Restart {
+#restart {
     font-size: 1.33em;
     padding: 0.5em 1.8em;
     border-radius: 0.2em;
     box-shadow: 0 20px 30px rgba (0, 0, 0, 0.4);
 }
 
-#Restart {
+#restart {
     margin-top: 0.9em;
 }
 
@@ -77,7 +77,7 @@ button {
     width: 600;
 }
 
-.options-div {
+.option-div {
     font-size: 0.9em;
     width: 100%;
     padding: 1em;
@@ -87,4 +87,41 @@ button {
     background: transparent;
     border: 1px solid #c0bfd2;
     border-radius: 0.3em;
+}
+
+.option-div:disabled {
+    color: #000;
+    cursor: not-allowed;
+}
+
+#next-button {
+    font-size: 1em;
+    margin-top: 1.5em;
+    background-color: #1d2630;
+    color: #fff;
+    padding: 0.7em 1.8em;
+    float: right;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.hide {
+    display: none;
+}
+
+.incorrect {
+    background-color: #ffdde0;
+    color: #d32f2f;
+    border-color: #d32f2f;
+}
+
+.correct {
+    background-color: #e7f6d5;
+    color: #00cb22;
+    border-color: #00cb22;
+}
+
+
+#user-score {
+    font-size: 1.5em;
+    color: #fff;
 }
