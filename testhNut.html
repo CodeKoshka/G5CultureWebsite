@@ -35,7 +35,7 @@
         function generateHentai() {
             var result = hentai(6);
             var resultText = result.number !== undefined
-                ? `Generated Number: ${result.number}, Hentai Link: <a href="${result.link}" target="_blank">${result.link}</a>`
+                ? `Generated Number: ${result.number}, Sauce Link: <a href="${result.link}" target="_blank">${result.link}</a>`
                 : result;
 
             document.getElementById("SauceResult").innerHTML = resultText;
