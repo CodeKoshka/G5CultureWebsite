@@ -24,3 +24,4 @@ function generateHentai() {
 
     document.getElementById("hentaiResult").innerText = resultText;
 }
+//when this goes public this will be hidden some where in the files just replace (ranSauce > 426505)with the newest sauce number so it works
