@@ -70,3 +70,21 @@ searchBtn.addEventListener("click", () => {
 });
 
 document.addEventListener("DOMContentLoaded", applySavedSidebarState);
+
+function search() {
+    var searchInput = document.getElementById('searchInput').value.toLowerCase(); 
+    var paragraphs = document.querySelectorAll('.text p'); 
+    var found = false;
+    for (var i = 0; i < paragraphs.length; i++) {
+        var paragraphText = paragraphs[i].textContent.toLowerCase(); 
+        if (paragraphText.includes(searchInput)) { 
+            paragraphs[i].style.display = 'block'; 
+            found = true;
+        } else {
+            paragraphs[i].style.display = 'none'; 
+        }
+    }
+    if (!found) {
+        alert('No matching results found.');
+    }
+}
