@@ -1,0 +1,84 @@
+<HEAD>
+    <SCRIPT language="javaScript" type="text/javascript">
+        <!--hide
+    var password;
+    
+    var PasswordType=" KOSHKANSFW";
+    
+    password=prompt('Please enter your password to view this page!',' ');
+    
+    if (password==PasswordType)
+     alert('PassWord Is Right Welcome To The Holy Grail');
+    else
+        { 
+            window.location="NewMainHub.html";
+        }
+    //-->
+        </SCRIPT>
+        </HEAD>
+<HEAD>
+    <SCRIPT language="javaScript" type="text/javascript">
+        <!--hide
+    var password;
+    
+    var PasswordType=" KOSHKANSFW";
+    
+    password=prompt('Please enter your password to view this page!',' ');
+    
+    if (password==PasswordType)
+     alert('PassWord Is Right Welcome To The Holy Grail');
+    else
+        { 
+            window.location="NewMainHub.html";
+        }
+    //-->
+        </SCRIPT>
+        </HEAD>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sauce Generator</title>
+    <link rel="icon" type="image/png" href="CelliniaTexasWaifuReadmeType.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+<!--Test Bago Ipalit Sa RandomNumberGenerator - Otep/Joseph -->
+    <h1>Sauce Generator</h1>
+
+    <button onclick="generateHentai()">Generate Sauce Link</button>
+
+    <p id="SauceResult"></p>
+    <script type="text/javascript">
+    function hentai(n) {
+        var returnVar = "https://nhentai.to/g/";
+        var ranSauce = Math.floor((Math.random() * 0.9 + 0.1) * Math.pow(10, n));
+
+        if (n >= 7) {
+            return "No breaky my codey UwU - Koshka!";
+        }
+
+        while (ranSauce > 426505) {
+            ranSauce = Math.floor((Math.random() * 0.9 + 0.1) * Math.pow(10, n));
+        }
+
+        return {
+            number: ranSauce,
+            link: returnVar + ranSauce
+        };
+    }
+
+    function generateHentai() {
+        var result = hentai(6);
+        var resultText = result.number !== undefined
+            ? `Generated Number: ${result.number}, Sauce Link: <a href="${result.link}" target="_blank">${result.link}</a>`
+            : result;
+
+        document.getElementById("SauceResult").innerHTML = resultText;
+    }
+</script>
+
+</body>
+</html>
